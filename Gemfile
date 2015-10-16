@@ -22,6 +22,7 @@ group :test do
   gem "metadata-json-lint"
   gem "rspec-puppet-facts"
   gem "rspec", "< 3.2.0", { "platforms" => ["ruby_18"] }
+  gem 'vagrant-wrapper', '~>2.0.3'
 end
 
 group :development do
